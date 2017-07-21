@@ -15369,7 +15369,7 @@ const _30_30 = [
 
 exports.exercices = [
     {
-        date: 1500024767462,
+        date: 1500024767465,
         program: 0,
         category: 'CARDIO_TRAINING',
         type: 'Eliptik',
@@ -15381,13 +15381,13 @@ exports.exercices = [
         type: 'Tapis',
         heartBeats: beatsCycles
     }, {
-        date: 1500024767462,
+        date: 1500024767464,
         program: 0,
         category: 'REINFORCEMENT',
         type: 'Superset',
         heartBeats: beatsLow
     }, {
-        date: 1500024767462,
+        date: 1500024767463,
         program: 0,
         category: 'LESSON',
         type: 'Hiit',
