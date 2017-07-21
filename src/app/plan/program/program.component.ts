@@ -67,6 +67,7 @@ export class ProgramComponent implements OnInit {
   }
 
   openExerciceModal(): void {
+    console.log('open modal')
     this.isExercicePopinOpen = true;
   }
 

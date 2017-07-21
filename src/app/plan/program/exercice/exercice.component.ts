@@ -29,7 +29,9 @@ export class ExerciceComponent implements OnInit {
     return EXERCICE_TYPES[this.exerciceForm.value.category];
   }
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder) {
+    console.log('construct modal');
+  }
 
   ngOnInit() {
     this.exerciceForm = this.fb.group({
@@ -95,6 +97,7 @@ export class ExerciceComponent implements OnInit {
 
   close(): void {
     this.exercice.emit(null);
+    console.log('close')
   }
 
   getTitle(): string {
